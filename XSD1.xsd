@@ -1,0 +1,22 @@
+# PR1_Zholobova_lab_rab_7
+<?xml version="1.0" encoding="utf-8" ?> 
+3 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+4 <xs:element name="Root"> 
+5 <xs:complexType> 
+6 <xs:choice maxOccurs="unbounded"> 
+7 <xs:element name="Sotrudnik" minOccurs="0" maxOccurs="unbounded"> 
+8 <xs:complexType> 
+9 <xs:sequence> 
+10 <xs:element name="CodSotrudnika" type="xs:string" /> 
+11 <xs:element name="FamilyName" type="xs:int" /> 
+12 <xs:element name="Name" type="xs:string" /> 
+13 <xs:element name="Otchestvo" type="xs:string" /> 
+14 <xs:element name="Dolzhnost" type="xs:string" /> 
+15 <xs:element name="DatePriemaNaRabotu" type="xs:date" /> 
+16 </xs:sequence> 
+17 </xs:complexType> 
+18 </xs:element> 
+19 </xs:choice> 
+20 </xs:complexType> 
+21 </xs:element> 
+22 </xs:schema> 
